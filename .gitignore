@@ -1,0 +1,10 @@
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Node modules (if you ever add them later)
+node_modules/
