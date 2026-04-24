@@ -1,5 +1,5 @@
 # Personal Portfolio Website
-**Developer:** Donald Cyprian Shagbaor  
+**Developer:** Abuashia Moses Etsorzi  
 **Project:** CSS Personal Project 1 - Turing Tech LLC  
 
 A professional, responsive single-page portfolio built using semantic HTML5 and modern CSS (Flexbox & Grid).
