@@ -3,106 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donald Cyprian Shagbaor | Portfolio</title>
+    <title>Abuashia Moses Etsorzi | Embedded Systems Engineer</title>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">DCS.</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<nav class="navbar">
+    <div class="logo">AME.</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#github">GitHub</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <header id="home" class="hero">
-        <div class="hero-content">
-            <h1>Donald Cyprian Shagbaor</h1>
-            <p class="tagline">Computer Science Student | Network & AI Researcher</p>
-            <div class="cta-buttons">
-                <a href="#projects" class="btn">View My Work</a>
-                <a href="#" class="btn btn-outline">Download CV</a>
+<header id="home" class="hero">
+    <div class="hero-content">
+        <h1>Abuashia Moses Etsorzi</h1>
+        <p class="tagline">
+            Embedded Systems Engineer | OpenWrt Developer | Edge AI Researcher
+        </p>
+
+        <div class="cta-buttons">
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#" class="btn btn-outline">Download CV</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="images/profile.jpg" alt="Profile">
+    </div>
+</header>
+
+<section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-container">
+        <p>
+            I am a systems-focused engineer specializing in embedded Linux, router firmware, and edge AI deployment. My work centers on modifying and extending OpenWrt-based systems to support advanced networking control, hardware interaction, and on-device intelligence.
+        </p>
+
+        <p>
+            At Wicrypt, I operate within R&D, working on firmware-level features, network behavior control, and integrating lightweight AI models into constrained hardware environments such as low-power routers.
+        </p>
+
+        <p>
+            My interests lie in optimizing performance under strict hardware limitations, bridging networking with AI, and building resilient systems that operate efficiently at the edge.
+        </p>
+    </div>
+</section>
+
+<section id="skills" class="section grey-bg">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill-card">Embedded Linux (OpenWrt)</div>
+        <div class="skill-card">Networking (TCP/IP, Packet Analysis)</div>
+        <div class="skill-card">Router Firmware Development</div>
+        <div class="skill-card">Edge AI / SLM Deployment</div>
+        <div class="skill-card">Python, C++, Shell Scripting</div>
+        <div class="skill-card">System Debugging & Performance Tuning</div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+
+        <article class="project-card">
+            <img src="images/project1.jpg" alt="Network Mode Control">
+            <div class="project-info">
+                <h3>Router Network Mode Control (2G/3G/4G/5G)</h3>
+                <p>
+                    Implemented firmware-level control for dynamically switching modem network modes using AT commands. Integrated into router UI for real-time control and improved network optimization.
+                </p>
+                <a href="#" class="link">View Details</a>
             </div>
-        </div>
-        <div class="hero-image">
-            <img src="images/profile.jpg" alt="Donald Cyprian Shagbaor">
-        </div>
-    </header>
+        </article>
 
-    <section id="about" class="section">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-container">
-            <p>
-                I am a final-year Computer Science student at Godfrey Okoye University with a passion for 
-                bridging the gap between high-level software and hardware. My work focuses on router firmware, 
-                networking infrastructure, and the deployment of Small Language Models (SLMs) on edge devices.
-            </p>
-            <p>
-                Beyond technical development, I am an entrepreneur in the footwear industry and lead as the 
-                captain of my university's basketball team. I believe in discipline, continuous learning, 
-                and building technology that solves real-world connectivity problems.
-            </p>
-        </div>
-    </section>
-
-    <section id="skills" class="section grey-bg">
-        <h2 class="section-title">Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card">HTML5 & CSS3</div>
-            <div class="skill-card">Python & C++</div>
-            <div class="skill-card">OpenWrt & Linux</div>
-            <div class="skill-card">Networking & Firmware</div>
-            <div class="skill-card">AI & SLM Research</div>
-            <div class="skill-card">Git & Team Sprints</div>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <h2 class="section-title">Projects</h2>
-        <div class="projects-grid">
-            <article class="project-card">
-                <img src="images/project1.jpg" alt="WicryptOS Toggle UI">
-                <div class="project-info">
-                    <h3>WicryptOS Interface Toggle</h3>
-                    <p>Developed a UI toggle for router frequency management (2G/4G/5G) using AT commands.</p>
-                    <a href="#" class="link">View Details</a>
-                </div>
-            </article>
-            <article class="project-card">
-                <img src="images/project2.jpg" alt="Task Management App">
-                <div class="project-info">
-                    <h3>More Todo App</h3>
-                    <p>A collaborative Python task manager built during a team sprint using CRUD principles.</p>
-                    <a href="#" class="link">GitHub</a>
-                </div>
-            </article>
-        </div>
-    </section>
-
-    <section id="contact" class="section grey-bg">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-container">
-            <div class="contact-info">
-                <p>Feel free to reach out for collaborations or networking!</p>
-                <p>Email: example@email.com</p>
+        <article class="project-card">
+            <img src="images/project2.jpg" alt="Traffic Inspection">
+            <div class="project-info">
+                <h3>Network Traffic Inspection & Logging (OpenWrt)</h3>
+                <p>
+                    Built packet-level monitoring using tcpdump and system hooks on OpenWrt. Explored limits of traffic visibility under HTTPS and router constraints.
+                </p>
+                <a href="https://github.com/Emereh-boop" class="link">GitHub</a>
             </div>
-            <form class="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-        </div>
-    </section>
+        </article>
 
-    <footer class="footer">
-        <p>&copy; 2026 Donald Cyprian Shagbaor. All Rights Reserved.</p>
-    </footer>
+        <article class="project-card">
+            <img src="images/project3.jpg" alt="Edge AI Router">
+            <div class="project-info">
+                <h3>SLM Deployment on Low-Power Router</h3>
+                <p>
+                    Benchmarked TinyLlama and Phi-3 Mini on a dual-core router. Optimized inference speed vs response quality under severe CPU and memory constraints.
+                </p>
+                <a href="#" class="link">View Details</a>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<section id="github" class="section grey-bg">
+    <h2 class="section-title">GitHub & Research</h2>
+
+    <p style="text-align:center;">
+        Explore my work on embedded systems, networking experiments, and AI deployment.
+    </p>
+
+    <div style="text-align:center; margin-top:20px;">
+        <a href="https://github.com/Emereh-boop" class="btn">Visit GitHub</a>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <p>Open to engineering collaborations, embedded systems work, and research opportunities.</p>
+            <p>Email: abuashiaemereh@gmail.com</p>
+        </div>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>&copy; 2026 Abuashia Moses Etsorzi. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
